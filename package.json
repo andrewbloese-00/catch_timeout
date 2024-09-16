@@ -1,0 +1,12 @@
+{
+  "name": "catch_timeout_node",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Helper functions to make setTimeout safer for exceptions. Treatserrors as values and prevents process from crashing on errors in timeout functions. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node examples/async_callback_example.js && node examples/sync_callback_example.js"
+  },
+  "author": "Andrew Bloese (andrewbloese-00)",
+  "license": "ISC"
+}
